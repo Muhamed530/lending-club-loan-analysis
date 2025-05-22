@@ -1,11 +1,39 @@
-# Ignore Jupyter notebook checkpoints
+# Python cache
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# Jupyter Notebook metadata
 .ipynb_checkpoints/
 
-# Ignore data that shouldn't be pushed
-data/raw/
-//data/accepted_*.csv
-# Ignore Python bytecode
-__pycache__/
-*.pyc
+# Environment files
+.env
+.venv/
+env/
+venv/
+*.env
 
-data/accepted_2007_to_2018Q4.csv
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Data folders
+data/raw/
+data/processed/
+data/interim/
+data/external/
+
+# Large files
+*.csv
+*.zip
+*.gz
+
+# Output artifacts
+*.log
+*.h5
+*.pkl
+*.joblib
+*.sqlite
