@@ -1,0 +1,9 @@
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data that shouldn't be pushed
+data/raw/
+//data/accepted_*.csv
+# Ignore Python bytecode
+__pycache__/
+*.pyc
